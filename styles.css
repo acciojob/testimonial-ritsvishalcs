@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+/* Main Container */
+.Testimonials-Container{
+	background-color:#f5f5f5;
+	padding:50px;
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+	max-width:800px;
+	margin:0 auto;
+}
+.Testimonial{
+	background-color:white;
+	border: 1px solid;
+	padding:20px;
+	border-radius:8px;
+}
+.Testimonial .text{
+	margin-bottom:10px;
+}
+
+.Testimonial .author{
+	text-align:right;
+	font-style: italic;
+}
